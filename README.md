@@ -31,4 +31,6 @@ This is a 100% js framework
 
 rougeFramework is not quite yet ready. Expect an Alpha by the end of 2019
 
-(yet… you may clone the repo, run npm install then npm run start:dev. But I'd recommend you to wait a little bit ;))
+(yet… you may clone the repo, run npm install then npm run start:dev. But I'd recommend you to wait a little bit ;)
+
+You may also send me a PM if you are interested)
