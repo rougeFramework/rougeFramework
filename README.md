@@ -1,23 +1,34 @@
-#Folder Stucture
+#What is it ?
 
-Application core files start with capitalized letter. User folders start with lowercase letters
+rougeFramework is meant to provide a foundation for small custom apps, bridging the gap between specialized solutions (blogs, portfolios…) and full-fledged (but completely barebone) frameworks.
 
-App : where all core application thingies lies
-|
-|----Data : the database
-|
-|/_ Below is stuffs for users. That's where you make you own magic. _/
-|
-appIndex : !Mandatory! this is where all the root views/controllers lie.
-|----views : !Mandatory!
-|--------index.pug : !Mandatory! view for the root /
-|--------anything.pug : view for /anything
-|----controllers
-|--------index.js : !Mandatory! controller for /
-|--------anything.js : controller for /anything
-|
-appAnything : Folder for any /anything subapp.
-|----views
-|--------someStuffs.pug : view for /anything/somestuff
-|----controller
-|--------someStuff.js : controller for /anything/somestuff
+#What are the features ?
+
+-   Multisites
+-   Design generator (with realtime color, fonts and ratio edition)
+-   Easy data models generations (with built-in data associations)
+-   Zero config forms (creation and edition)
+-   Zero config list navigation, tags and filters
+-   Automatic routing
+-   Wysiwyg main navigation editor
+-   Authentication
+-   Built-in webpack optimisation (and post-css transpiling)
+-   Zero configuration built-in database and dev server
+    And more to come…
+
+# What is it built with ?
+
+This is a 100% js framework
+
+-   Server-side : NodeJs and ExpressJs
+-   Client-side : VueJs
+-   Templating : Pug
+-   Packaging : webpack
+-   Database : lowdb
+-   Testing : Jest & Cypress
+
+# Neat ! How do I install it
+
+rougeFramework is not quite yet ready. Expect an Alpha by the end of 2019
+
+(yet… you may clone the repo, run npm install then npm run start:dev. But I'd recommend you to wait a little bit ;))
