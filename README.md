@@ -1,8 +1,8 @@
-#What is it ?
+# What is it ?
 
 rougeFramework is meant to provide a foundation for small custom apps, bridging the gap between specialized solutions (blogs, portfolios…) and full-fledged (but completely barebone) frameworks.
 
-#What are the features ?
+# What are the features ?
 
 -   Multisites
 -   Design generator (with realtime color, fonts and ratio edition)
